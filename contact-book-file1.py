@@ -9,7 +9,7 @@ for i in range(num):
     names.append(name)
     phone_numbers.append(phone_numbers)
 
- print("\nName\t\t\tPhone Number\n")
+    print("\nName\t\t\tPhone Number\n")
 
 for i in range(num):
     print("{}\t\t\t{}".format(names[i], phone_numbers[i]))
@@ -19,7 +19,7 @@ for i in range(num):
     print("Search Resut")
     
     if search_term in names:
-        index = names.index (search_term)
+        index = names.index(search_term)
         phone_number = phone_number[index]
         print("Name: {}, Phone Number: {}",format(search_term, phone_number))
         
