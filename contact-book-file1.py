@@ -1,5 +1,6 @@
 names = ["zuki"]
 phone_numbers = ["079-968-5547"]
+num = 5
 
 
 for i in range(num):
@@ -8,11 +9,14 @@ for i in range(num):
     
     names.append(name)
     phone_numbers.append(phone_numbers)
+    
+    names.delete(name)
+    phone_numbers.delete(phone_numbers)
 
-    print("\nName\t\t\tPhone Number\n")
+    print("\nName\t\t\t\t\tPhone Number\n")
 
 for i in range(num):
-    print("{}\t\t\t{}".format(names[i], phone_numbers[i]))
+    print("{}\t\t\t\t\t{}".format(names[i], phone_numbers[i]))
    
 
     search_term = input("\nEnter Search Term: ")
