@@ -10,9 +10,6 @@ for i in range(num):
     names.append(name)
     phone_numbers.append(phone_numbers)
     
-    names.delete(name)
-    phone_numbers.delete(phone_numbers)
-
     print("\nName\t\t\t\t\tPhone Number\n")
 
 for i in range(num):
