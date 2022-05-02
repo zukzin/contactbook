@@ -1,6 +1,6 @@
 names = ["zuki"]
 phone_numbers = ["079-968-5547"]
-num = 5
+num = 3
 
 
 for i in range(num):
