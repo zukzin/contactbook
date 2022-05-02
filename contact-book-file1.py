@@ -22,7 +22,7 @@ for i in range(num):
     if search_term in names:
         index = names.index(search_term)
         phone_number = phone_number[index]
-        print("Name: {}, Phone Number: {}",format(search_term, phone_number))
+        print("Name: {}, Phone Number: {}".format(search_term, phone_number))
         
     else:
         print("Name not found")
